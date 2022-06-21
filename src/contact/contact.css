@@ -1,0 +1,52 @@
+@import url("/css/main.css");
+
+body {
+    background-color: #fff;
+}
+
+section {
+    padding: 100px 0;
+}
+
+.contact-container h2 {
+    text-transform: uppercase;
+    text-align: center;
+    color: #1c4294;
+    font-size: 54px;
+}
+
+.contact-container .btn-group {
+    width: 100%;
+}
+
+.contact-container label {
+    color: #000000;
+    font-size: 14px;
+}
+
+.contact-container .btn-group button {
+    padding: 16px 25px;
+    border-radius: 100px;
+}
+
+.contact-container input[type="text"],input[type="email"], textarea{
+    background-color: #D9D9D9 !important;
+    padding: 16.5px 13px;
+}
+
+.contact-container textarea {
+    height: 225px;
+}
+
+.contact-container .btn.btn-contact {
+    background-color: #1c4294;
+    color: #fff;
+}
+
+@media only screen and (min-width: 768px) {
+    .contact-container form {
+        width: 748px;
+        margin: 0 auto;
+    }
+}
+

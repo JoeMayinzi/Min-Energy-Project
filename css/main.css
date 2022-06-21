@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Oswald", sans-serif;
+  background-color: #f0f1f3;
+}
+
+* {
+  box-sizing: border-box;
+}
+.navbar{
+  /*height: 80px;*/
+  background: #fff;
+}
+.navbar .navbar-brand img {
+  width: 250px;
+  height: 80px;
+}
+
+.navbar .navbar-nav .nav-link {
+  color: rgba(0,0,0,.9);
+  text-transform: uppercase;
+  margin-left: 15px;
+}
+
+.home {
+  height: 100vh;
+  /*display: flex;*/
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8)),
+  url("/assets/img/inga.jpg");
+  background-position: center;
+  background-size: cover;
+
+} 
+
+.home .ministry {
+  width: 100%;
+}
+
+.home .ministry h1{
+  font-size: 3.5rem;
+}
+
+.home .minister-img img {
+  width: 100%;
+}
+
+.publications {
+  position: absolute;
+  bottom: -225px;
+  background: #fff;
+  padding: 30px 0px 30px 100px;
+  width: 80%;
+}
+
+.publications .description  .descri-img img {
+  border-radius: 3px;
+}
+
+
+.actualités {
+  padding: 170px 0;
+}
+
+.hline {
+  width: 70px;
+  height: 5px;
+  background-color: rgb(62, 62, 241);
+  
+}
+
+.actualités h2 {
+  text-transform: uppercase;
+}
+
+.actualités .pub0 {
+  background-color: #fff;
+  padding: 37px 20px;
+}
+
+.actualités .pub {
+  background-color: #fff;
+  padding: 50px 35px;
+}
+
+.about-admin {
+  background-color: #fff;
+  padding: 20px;
+}
+
+.about-admin img {
+  border-radius: 10px;
+  
+}
+
+.about-admin .about-descri span {
+  text-transform: uppercase;
+}
+
+.about-admin .about-descri h3 {
+  text-transform: uppercase;
+}
+
+.about-admin .about-descri li {
+  list-style: none;
+}
+
+.about-admin .about-descri li a{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.about-admin .about-descri div {
+  padding: 20px 0;
+}
+
+.agences .card {
+  padding: 20px;
+  border: none;
+} 
+
+.agences .card h3 {
+  text-transform: uppercase;
+  font-size: 2em;
+}
+
+.agences .card h5 {
+  text-transform: uppercase;
+  font-size: 2em;
+}
+
+.agences .card a {
+  text-decoration: none;
+}
+
+footer {
+  background: #1c4294;
+  padding: 60px 0;
+}
+
+footer  .networks-icons ul {
+  padding: 0;
+  display: flex;
+}
+
+footer li {
+  list-style: none;
+}
+
+footer h5 {
+  text-transform: capitalize;
+  color: #fff;
+}
+
+.networks-icons a {
+  margin-left: 20px;
+  color: blue;
+  font-size: 25px;
+  background-color: #fff;
+  border-radius: 100%;
+  padding: 5px 15px;
+}
+
+footer  .quick-links ul {
+  padding: 0;
+}
+
+footer  .quick-links li {
+  margin-bottom: 15px;
+}
+
+
+.quick-links a {
+  text-decoration: none;
+  color: #fff;
+
+  
+}
+
+footer input {
+  padding: 10px 20px !important;
+  border-radius: 5px !important;
+}
+footer button {
+  padding: 10px 20px !important;
+  width: 100% !important;
+
+}
+
+/*===================== SAME STRCUTURE PAGES STYLE ===================== */
+
+.page-title {
+  background-color: #fff;
+  padding: 25px 0;
+}
+
+/*===================== PAGE MINISTERE ===================== */
+
+@media only screen and (min-width: 768px) {
+  .min-text{
+      width: 710px;
+      margin: 0 auto;
+  }    
+}
+
+/*===================== PAGE POLITIQUES PUBLIQUES===================== */
+
+.poliPublique .card {
+  margin-bottom: 15px;
+  padding: 20px;
+}
+
+/*===================== SOUS PAGE DANS POLITIQUES PUBLIQUES===================== */
+
+/*===================== PAGE PROJETS===================== */
+
+.project {
+  background-color: #fff;
+}
+
+.project img {
+  border-radius: 3px;
+  height: auto;
+} 
+
+.project-descri , .project-ref {
+  padding-top: 25px;
+}
+
+/*===================== SOUS PAGE DANS PROJETS===================== */
+
+.controls-btn {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-around;
+  padding: 15px 0;
+}
+
+.controls-btn a {
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .projet1-text{
+      width: 710px;
+      margin: 0 auto;
+  }    
+}
+
+.project1 {
+  background-color: #fff;
+}
+
+.project1 img {
+ 
+  height: auto;
+}
+
+.project1 p {
+  margin: 0;
+}
+
+.projet1-descri, .projet1-ref {
+  padding: 10px;
+}
+
+.poliPublique h3 {
+  font-size: 20px;
+}
+
+.min-member {
+  background-color: #fff;
+}
+
+.page-title .title {
+  text-transform: uppercase;
+  
+}
+@media only screen and (max-width: 768px) {
+  .publications {
+    margin: 0 auto;
+    
+    padding: 30px 0px 30px 0px;
+  } 
+}
+
+
+
