@@ -124,8 +124,7 @@ body {
 
 @media (max-width: 576px) { 
   .publications .descri-comment {
-    border-left:  none !important;
-    border-bottom: 1px solid rgba(151,151,151,.2);
+    border:none;
   }
 
   
