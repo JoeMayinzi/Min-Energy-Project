@@ -76,10 +76,10 @@ body {
     position: relative;
     top: 50px;
     bottom: 0;
-    width: 100%;
+    width: 95%;
     padding: 30px 0px 30px 0px;
-    /*margin: 0 12px;*/
-
+    margin: 0 12px;
+  } 
   
  }
 
@@ -120,7 +120,7 @@ body {
 }
 
 .publications .descri-comment {
-  border-right: 1px solid rgba(151,151,151,.2);
+  /*border-right: 1px solid rgba(151,151,151,.2);*/
 }
 
 @media (max-width: 576px) { 
@@ -163,8 +163,9 @@ body {
   bottom: 0;
   width: 70px;
   height: 5px;
-  background-color: rgb(62, 62, 241)
-  
+  background-color: #028CDA;
+  position: relative;
+  top: 8px;
   
 }
 
@@ -232,6 +233,10 @@ body {
   
 }
 
+.about-admin .about-descri ul {
+  /*position: absolute;*/
+}
+
 .about-admin .about-descri li a::before {
   content: '';
   display: block;
@@ -241,7 +246,9 @@ body {
   position: relative;
   width: 5px;
   height: 20px;
-  left: -30px;
+  left: -23px;
+  top: 20px
+  
   
 }
 
