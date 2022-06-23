@@ -124,7 +124,8 @@ body {
 
 @media (max-width: 576px) { 
   .publications .descri-comment {
-    border: none;
+    border-left:  none !important;
+    border-bottom: 1px solid rgba(151,151,151,.2);
   }
 
   
@@ -158,7 +159,6 @@ body {
 
 .actualités h2::after {
   content: '';
-  background: red;
   display: block;
   bottom: 0;
   width: 70px;
@@ -318,13 +318,14 @@ footer  .quick-links li {
   
 }
 
-footer .useful-links{
-  padding-left: 0;
+footer .useful-links ul{
+  padding: 0;
 }
 
 footer .useful-links a {
   text-decoration: none;
   color: #fff;
+  
 }
 
 footer input {
