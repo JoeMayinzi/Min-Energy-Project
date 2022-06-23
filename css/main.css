@@ -76,9 +76,9 @@ body {
     position: relative;
     top: 50px;
     bottom: 0;
-    width: 95%;
+    width: 100%;
     padding: 30px 0px 30px 0px;
-    margin: 0 12px;
+    /*margin: 0 12px;*/
 
   
  }
