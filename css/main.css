@@ -1,3 +1,10 @@
+/*@font-face {
+  font-family: "CooperHewitt-Book";
+  src: url("/assets/font/cooper-hewitt/CooperHewitt-Book.woff") format("woff");
+ }
+
+ Police de font personnalisée
+ */
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
 body {
@@ -5,7 +12,9 @@ body {
   padding: 0;
   font-family: "Oswald", sans-serif;
   background-color: #f0f1f3;
+
 }
+
 
 * {
   box-sizing: border-box;
@@ -23,6 +32,9 @@ body {
   color: rgba(0,0,0,.9);
   text-transform: uppercase;
   margin-left: 15px;
+  font-size: 14px;
+  border-bottom: 1px solid rgba(10,36,88,.25);
+  /*font-family: "CooperHewitt-Book", Sans-serif;*/
 }
 
 .home {
@@ -47,18 +59,82 @@ body {
 
 .home .minister-img img {
   width: 100%;
+  
 }
 
 .publications {
   position: absolute;
   bottom: -225px;
   background: #fff;
-  padding: 30px 0px 30px 100px;
-  width: 80%;
+  box-shadow: 0 5px 8px -3px rgba(0,0,0,.15);
+  padding: 30px 0px 30px 90px;
+  width: 85%;
+}
+
+@media (max-width: 576px) { 
+  .publications {
+    position: relative;
+    top: 50px;
+    bottom: 0;
+   
+  }
+
+  
+ }
+
+ @media (max-width: 768px) { 
+  .publications {
+    position: static;
+    bottom: 0;
+  }
+ } 
+
+ @media (max-width: 787px) { 
+  .publications {
+    position: static;
+    bottom: 0;
+  }
+ } 
+
+ @media (max-width: 792px) { 
+  .publications {
+    position: static;
+    bottom: 0;
+  }
+ } 
+
+ @media (max-width: 972px) { 
+  .publications {
+    position: static;
+    bottom: 0;
+  }
+ }
+
+ .pub-date{
+  font-size : 12px;
+  text-transform: uppercase;
+  color: #666;
+  letter-spacing: 2.79px;
+  font-weight: 600;
+}
+
+.publications .descri-comment {
+  border-right: 1px solid rgba(151,151,151,.2);
+}
+
+.publications p a {
+  text-decoration: none;
+  color: #028CDA;
+  color: 12px;
+}
+
+.publications p a:hover {
+  text-decoration: underline;
 }
 
 .publications .description  .descri-img img {
   border-radius: 3px;
+  
 }
 
 
@@ -66,12 +142,30 @@ body {
   padding: 170px 0;
 }
 
-.hline {
+.actu-title {
+  color: #1c4294;
+  font-weight: 700;
+  
+}
+
+.actualités h2::after {
+  content: '';
+  background: red;
+  display: block;
+  bottom: 0;
+  width: 70px;
+  height: 5px;
+  background-color: rgb(62, 62, 241)
+  
+  
+}
+
+/*.hline {
   width: 70px;
   height: 5px;
   background-color: rgb(62, 62, 241);
   
-}
+}*/
 
 .actualités h2 {
   text-transform: uppercase;
@@ -87,6 +181,18 @@ body {
   padding: 50px 35px;
 }
 
+.actualités p a{
+  text-decoration: none;
+  color:#028CDA;
+}
+
+.actualités p a:hover {
+  text-decoration: underline;
+}
+
+.actualités span {
+  font-size: 12px;
+}
 .about-admin {
   background-color: #fff;
   padding: 20px;
@@ -107,12 +213,28 @@ body {
 
 .about-admin .about-descri li {
   list-style: none;
+  
 }
 
 .about-admin .about-descri li a{
   text-decoration: none;
   text-transform: uppercase;
   color: #000;
+  
+  
+}
+
+.about-admin .about-descri li a::before {
+  content: '';
+  display: block;
+  bottom: 0;
+  height: 5px;
+  background-color: #BDE7FF;
+  position: relative;
+  width: 5px;
+  height: 20px;
+  left: -30px;
+  
 }
 
 .about-admin .about-descri div {
@@ -123,6 +245,8 @@ body {
   padding: 20px;
   border: none;
 } 
+
+
 
 .agences .card h3 {
   text-transform: uppercase;
@@ -143,9 +267,8 @@ footer {
   padding: 60px 0;
 }
 
-footer  .networks-icons ul {
-  padding: 0;
-  display: flex;
+footer  .adress-min {
+  color: #fff;
 }
 
 footer li {
@@ -166,6 +289,11 @@ footer h5 {
   padding: 5px 15px;
 }
 
+/*footer  .quick-links {
+  border-left: 2px solid hsla(0,0%,100%,.3);
+  padding-left: 40px;
+}*/
+
 footer  .quick-links ul {
   padding: 0;
 }
@@ -182,14 +310,29 @@ footer  .quick-links li {
   
 }
 
+footer .useful-links{
+  padding-left: 0;
+}
+
+footer .useful-links a {
+  text-decoration: none;
+  color: #fff;
+}
+
 footer input {
   padding: 10px 20px !important;
-  border-radius: 5px !important;
+  border-radius: 30px !important;
 }
 footer button {
   padding: 10px 20px !important;
   width: 100% !important;
+  border-radius: 30px !important;
 
+}
+
+.title {
+  color: #1c4294;
+  text-align: center;
 }
 
 /*===================== SAME STRCUTURE PAGES STYLE ===================== */
@@ -199,7 +342,20 @@ footer button {
   padding: 25px 0;
 }
 
+@media (min-width: 992px) { 
+  .title {
+    font-size: 54px;
+  }
+ }
+
+ @media (min-width: 768px) { 
+  .title {
+    font-size: 34px;
+  }
+  }
+
 /*===================== PAGE MINISTERE ===================== */
+
 
 @media only screen and (min-width: 768px) {
   .min-text{
