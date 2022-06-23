@@ -11,7 +11,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Oswald", sans-serif;
-  background-color: #f0f1f3;
+  background-color: #f4f4f4;
 
 }
 
@@ -238,10 +238,6 @@ body {
   
 }
 
-.about-admin .about-descri ul {
-  /*position: absolute;*/
-}
-
 .about-admin .about-descri li a::before {
   content: '';
   display: block;
@@ -377,6 +373,10 @@ footer button {
 
 /*===================== PAGE MINISTERE ===================== */
 
+.min-member {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
 
 @media only screen and (min-width: 768px) {
   .min-text{
@@ -390,6 +390,8 @@ footer button {
 .poliPublique .card {
   margin-bottom: 15px;
   padding: 20px;
+  border: none;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 /*===================== SOUS PAGE DANS POLITIQUES PUBLIQUES===================== */
