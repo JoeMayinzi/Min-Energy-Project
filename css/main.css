@@ -122,6 +122,15 @@ body {
   border-right: 1px solid rgba(151,151,151,.2);
 }
 
+@media (max-width: 576px) { 
+  .publications .descri-comment {
+    border-left:  none !important;
+    border-bottom: 1px solid rgba(151,151,151,.2);
+  }
+
+  
+ }
+
 .publications p a {
   text-decoration: none;
   color: #028CDA;
