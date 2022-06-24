@@ -411,6 +411,17 @@ footer button {
 
 /*===================== PAGE POLITIQUES PUBLIQUES===================== */
 
+.download-pdf a::before {
+  content: "";
+  width: 100px;
+  height: 100px;
+  position: relative;
+  
+  border-left: 3px solid;
+  border-color:  #BDE7FF;
+  padding-left: 10px;
+}
+
 .poliPublique .card {
   margin-bottom: 15px;
   padding: 20px;
