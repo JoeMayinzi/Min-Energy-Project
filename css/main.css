@@ -225,6 +225,9 @@ body {
     
   } 
 
+  .actualités .pub {
+    padding: 10px 20px;
+  }
   
 }
 
