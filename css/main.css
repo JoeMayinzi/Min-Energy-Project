@@ -184,6 +184,11 @@ body {
   text-transform: uppercase;
 }
 
+.actualités h3 a {
+  text-decoration: none;
+  color: #028CDA;
+}
+
 .actualités .pub0 {
   background-color: #fff;
   padding: 37px 20px;
@@ -238,7 +243,7 @@ body {
 }
 
 .about-admin .about-descri li a::before {
-  content: '';
+  /*content: '';
   display: block;
   bottom: 0;
   height: 5px;
@@ -247,8 +252,14 @@ body {
   width: 5px;
   height: 20px;
   left: -23px;
-  top: 20px
-  
+  top: 20px*/
+  content: "";
+  width: 100px;
+  height: 100px;
+  position: relative;
+  left: -30px;
+  border-left: 3px solid;
+  border-color:  #BDE7FF;
   
 }
 

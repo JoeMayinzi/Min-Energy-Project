@@ -43,6 +43,12 @@ section {
     color: #fff;
 }
 
+@media only screen and (max-width: 576px) {
+    .contact-container form h2 {
+        font-size: 34px;
+    }
+}
+
 @media only screen and (min-width: 768px) {
     .contact-container form {
         width: 748px;
