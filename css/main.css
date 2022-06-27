@@ -36,7 +36,13 @@ body {
   /*font-family: "CooperHewitt-Book", Sans-serif;*/
 }
 
-.navbar .navbar-nav .nav-link:hover {
+.nav-link:hover {
+  color: #1c4294;
+  border-bottom-color: #1c4294;
+  border-bottom-width: 2px;
+}
+
+.activeLink {
   color: #1c4294;
   border-bottom-color: #1c4294;
   border-bottom-width: 2px;
