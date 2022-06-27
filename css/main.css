@@ -21,7 +21,9 @@ body {
 
 .navbar{
   background: #fff;
-  /*position: sticky;
+  /*position: fixed;
+  right: 0;
+  left: 0;
   top: 0;*/
 }
 .navbar .navbar-brand img {

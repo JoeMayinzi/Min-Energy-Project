@@ -25,3 +25,8 @@ links.forEach((link) => {
         console.log(link)
     }
 })
+
+window.addEventListener("scroll", (e)=>{
+    console.log(e)
+    console.log("vous scrollez")
+})
