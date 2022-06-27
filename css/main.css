@@ -254,7 +254,17 @@ body {
 
   .sidebar-menu li a {
     text-decoration: none;
+    text-transform: uppercase;
     color: rgba(0,0,0,.9);
+  }
+
+  .sidebar-menu .exit{
+    padding: 25px 0;
+  }
+
+  .sidebar-menu .exit i {
+    float: right;
+    
   }
   
 }
