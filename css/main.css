@@ -36,6 +36,21 @@ body {
   /*font-family: "CooperHewitt-Book", Sans-serif;*/
 }
 
+/*============================== SIDEBAR ============================*/
+.sidebar-button {
+  display: none;
+}
+
+.sidebar-menu {
+  display: none;
+}
+
+/*==========================================================*/
+
+.sidebar-button i, .exit i {
+  font-size: 25px;
+ }
+
 .home {
   height: 100vh;
   /*display: flex;*/
@@ -173,13 +188,6 @@ body {
   
 }
 
-/*.hline {
-  width: 70px;
-  height: 5px;
-  background-color: rgb(62, 62, 241);
-  
-}*/
-
 .actualités h2 {
   text-transform: uppercase;
 }
@@ -217,9 +225,7 @@ body {
 
 }
 
-.sidebar-menu {
-  display: none;
-}
+
 
 @media only screen and (max-width: 576px) {
  .about-admin .row.secretary {
@@ -233,6 +239,10 @@ body {
 
   .navbar-toggler{
     display: none;
+  }
+
+  .sidebar-button {
+    display: block;
   }
 
   .sidebar-menu {
@@ -535,10 +545,6 @@ footer button {
 .page-title .title {
   text-transform: uppercase;
   
-}
-/*============================== SIDEBAR ============================*/
-.sidebar-button i, .exit i {
- font-size: 25px;
 }
 
 @media only screen and (max-width: 768px) {
