@@ -266,6 +266,10 @@ body {
     transition: .3s;
   }
 
+  .sidebar-menu ul {
+    padding-left: 0;
+  }
+
   .sidebar-menu li {
     list-style: none;
     margin-bottom: 10px;
@@ -277,7 +281,7 @@ body {
     text-transform: uppercase;
     color: rgba(0,0,0,.9);
     margin-left: 0;
-    padding: 0 8px;
+    padding-left: 0;
   }
 
   .sidebar-menu li a:hover {
