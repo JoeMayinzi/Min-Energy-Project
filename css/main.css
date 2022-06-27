@@ -228,6 +228,10 @@ body {
   .actualités .pub {
     padding: 10px 20px;
   }
+
+  .navbar-toggler{
+    display: none;
+  }
   
 }
 
@@ -498,6 +502,16 @@ footer button {
   text-transform: uppercase;
   
 }
+/*============================== SIDEBAR ============================*/
+.sidebar-button i {
+ font-size: 25px;
+}
+.sidebar-menu {
+  background-color: #fff;
+  position: absolute;
+  right: 0;
+}
+
 @media only screen and (max-width: 768px) {
   .publications {
     margin: 0 auto;
