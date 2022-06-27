@@ -27,13 +27,19 @@ body {
   height: 60px;
 }
 
-.navbar .navbar-nav .nav-link {
+.nav-link {
   color: rgba(0,0,0,.9);
   text-transform: uppercase;
   margin-left: 15px;
   font-size: 14px;
   border-bottom: 1px solid rgba(10,36,88,.25);
   /*font-family: "CooperHewitt-Book", Sans-serif;*/
+}
+
+.navbar .navbar-nav .nav-link:hover {
+  color: #1c4294;
+  border-bottom-color: #1c4294;
+  border-bottom-width: 2px;
 }
 
 /*============================== SIDEBAR ============================*/
@@ -197,6 +203,10 @@ body {
   color: #028CDA;
 }
 
+.actualités h3 a:hover {
+  text-decoration: underline;
+}
+
 .actualités .pub0 {
   background-color: #fff;
   padding: 37px 20px;
@@ -266,6 +276,11 @@ body {
     text-decoration: none;
     text-transform: uppercase;
     color: rgba(0,0,0,.9);
+    margin-left: 0;
+  }
+
+  .sidebar-menu li a:hover {
+    border-bottom-color: #1c4294;
   }
 
   .sidebar-menu .exit{
