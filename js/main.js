@@ -2,11 +2,14 @@ const sidebarBtn = document.querySelector(".sidebar-button i");
 const sidebarMenu = document.querySelector(".sidebar-menu");
 const sidebarExit = document.querySelector(".exit i");
 const links = document.querySelectorAll(".navbar-nav a");
-const activePage = window.location.pathname
+const activePage = window.location.pathname;
+const header = document.querySelector("header")
 
 
 sidebarBtn.addEventListener("click", ()=> {
     sidebarMenu.style.right = 0;
+    header.style.position = "static"
+
     
 })
 
