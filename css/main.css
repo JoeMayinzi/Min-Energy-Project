@@ -217,7 +217,9 @@ body {
 
 }
 
- 
+.sidebar-menu {
+  display: none;
+}
 
 @media only screen and (max-width: 576px) {
  .about-admin .row.secretary {
@@ -231,6 +233,28 @@ body {
 
   .navbar-toggler{
     display: none;
+  }
+
+  .sidebar-menu {
+    display: block;
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    right: -450px;
+    height: 100%;
+    width: 100%;
+    transition: .3s;
+  }
+
+  .sidebar-menu li {
+    list-style: none;
+    margin-bottom: 10px;
+    
+  }
+
+  .sidebar-menu li a {
+    text-decoration: none;
+    color: rgba(0,0,0,.9);
   }
   
 }
@@ -503,13 +527,8 @@ footer button {
   
 }
 /*============================== SIDEBAR ============================*/
-.sidebar-button i {
+.sidebar-button i, .exit i {
  font-size: 25px;
-}
-.sidebar-menu {
-  background-color: #fff;
-  position: absolute;
-  right: 0;
 }
 
 @media only screen and (max-width: 768px) {
