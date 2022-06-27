@@ -13,7 +13,7 @@ sidebarBtn.addEventListener("click", ()=> {
 sidebarExit.addEventListener("click", (e)=>{
     e.preventDefault()
     sidebarMenu.style.right = -450 + "px";
-    sidebarMenu.style.visibility = "hidden"
+    
 })
 
 links.forEach((link) => {
