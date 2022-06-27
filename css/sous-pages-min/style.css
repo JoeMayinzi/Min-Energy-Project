@@ -1,7 +1,7 @@
 @import url("/css/main.css");
 
 body {
-    background-color: #f4f4f4;
+    background-color: #f4f4f4 !important;
     padding: 0;
     margin: 0;
 }
@@ -29,6 +29,7 @@ img {
 
 .profil-descri .text-letrine::first-letter {
     font-size: 60px;
+    color: #1c4294;
 }
 
 .profil-descri p {
