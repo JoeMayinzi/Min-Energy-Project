@@ -15,10 +15,10 @@ body {
   overflow-x: hidden;
 }
 
-
 * {
   box-sizing: border-box;
 }
+
 .navbar{
   background: #fff;
 }
@@ -288,6 +288,7 @@ body {
     color: rgba(0,0,0,.9);
     margin-left: 0;
     padding-left: 0;
+    font-size: 20px;
     width: 50%;
   }
 
