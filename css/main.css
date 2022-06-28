@@ -612,7 +612,9 @@ footer button {
 }
 
 /*=====================RESULTAT RECHERCHE===================== */
-
+.pagination {
+  margin-top: 10px;
+}
 .pagination a {
   margin-left: 15px;
   color: #000;
@@ -641,4 +643,10 @@ footer button {
   margin-bottom: 0;
 }
 
+/*===================== ARTICLES ===================== */
+
+.social-links a {
+  margin-right: 10px;
+  font-size: 25px;
+}
 
