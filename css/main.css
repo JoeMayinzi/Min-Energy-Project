@@ -52,6 +52,16 @@ body {
   border-bottom-width: 2px;
 }
 
+.link {
+  text-decoration: none;
+  color: #028CDA;
+}
+
+.link:hover {
+  text-decoration: underline;
+  color: #028CDA;
+}
+
 /*============================== SIDEBAR ============================*/
 .sidebar-button {
   display: none;
@@ -601,5 +611,34 @@ footer button {
   } 
 }
 
+/*=====================RESULTAT RECHERCHE===================== */
+
+.pagination a {
+  margin-left: 15px;
+  color: #000;
+  text-decoration: none;
+}
+
+.pagination a:hover{
+  text-decoration: none;
+}
+
+.pagination a:first-child{
+  color: #028CDA;
+}
+
+
+/*=====================NEWS===================== */
+.news {
+  font-size: 14px;
+}
+.news h3 {
+  font-size: 20px;
+  margin-bottom: 0;
+}
+
+.news p {
+  margin-bottom: 0;
+}
 
 
