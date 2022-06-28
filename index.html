@@ -58,45 +58,20 @@
         </div>
       </nav>
       <div class="sidebar-button">
-        <i class="fas fa-bars"></i>
+        <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"> <i class="fas fa-bars"></i></button>
+
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+          <div class="offcanvas-header">
+            <h5 id="offcanvasRightLabel">Offcanvas right</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            ...
+          </div>
       </div>
     </div>
   </header>
-  <div class="sidebar-menu">
-    <div class="container ">
-      <div class="exit">
-        <i class="far fa-times"></i>
-      </div>
-      <div class="items">
-        <ul class="nav-container">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="/index.html">Accueil</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/src/poliPublique/poliPublique.html">Politiques Publiques</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/src/ministère/ministère.html">Ministère</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/src/patrimoine/patrimoine.html">Patrimoine Nationale</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/src/projets/projets.html">Projets</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/src/contact/contact.html">contact</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/src/article/article.html">test</a>
-          </li>
-        </ul>
-        <div>
-          <i class="fas fa-search"></i>
-        </div>
-    </div>
-  </div>
-  </div>
+</div>
   <section class="home">
     <div class="container vh-100 d-flex align-items-center">
       <div class="row g-4">
@@ -274,7 +249,7 @@
               <div class="card-body">
                 <h5 class="card-title">ARE</h5>
                 <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur eos vero eaque. </p>
-                <a href="#" class="link">Visiter <i class="fas fa-angle-right"></i></a>
+                <a href="#" class="text-primary">Visiter <i class="fas fa-angle-right"></i></a>
               </div>
             </div>
           </div>
@@ -285,7 +260,7 @@
               <div class="card-body">
                 <h5 class="card-title">cne</h5>
                 <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur eos vero eaque. </p>
-                <a href="#" class="link">Visiter <i class="fas fa-angle-right"></i></a>
+                <a href="#" class="text-primary">Visiter <i class="fas fa-angle-right"></i></a>
               </div>
             </div>
           </div>
@@ -296,7 +271,7 @@
               <div class="card-body">
                 <h5 class="card-title">cat</h5>
                 <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur eos vero eaque.</p>
-                <a href="#" class="link">Visiter <i class="fas fa-angle-right"></i></a>
+                <a href="#" class="text-primary">Visiter <i class="fas fa-angle-right"></i></a>
               </div>
             </div>
           </div>
@@ -307,7 +282,7 @@
               <div class="card-body">
                 <h5 class="card-title">ucm</h5>
                 <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur eos vero eaque. </p>
-                <a href="#" class="link">Visiter <i class="fas fa-angle-right"></i></a>
+                <a href="#" class="text-primary">Visiter <i class="fas fa-angle-right"></i></a>
               </div>
             </div>
           </div>

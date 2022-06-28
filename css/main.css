@@ -71,6 +71,66 @@ body {
   display: none;
 }
 
+@media (max-width: 992px) { 
+  .navbar-toggler{
+    display: none;
+  }
+
+  .sidebar-button {
+    display: block;
+    right: 0;
+   
+  }
+
+  .sidebar-menu {
+    
+    display: block;
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    right: -450px;
+    height: 100%;
+    width: 100%;
+    transition: .3s;
+    
+  }
+
+  .sidebar-menu ul {
+    padding-left: 0;
+  }
+
+  .sidebar-menu li {
+    list-style: none;
+    margin-bottom: 10px;
+    
+  }
+
+  .sidebar-menu li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgba(0,0,0,.9);
+    margin-left: 0;
+    padding-left: 0;
+    font-size: 20px;
+   
+  }
+
+  .sidebar-menu li a:hover {
+    border-bottom-color: #1c4294;
+  }
+
+  .sidebar-menu .exit{
+    padding: 25px 0;
+  }
+
+  .sidebar-menu .exit i {
+    float: right;
+    
+  }
+
+  
+ }
+
 /*==========================================================*/
 
 .sidebar-button i, .exit i {
@@ -266,62 +326,6 @@ body {
   .actualités .pub {
     padding: 10px 20px;
   }
-
-  .navbar-toggler{
-    display: none;
-  }
-
-  .sidebar-button {
-    display: block;
-    right: 0;
-   
-  }
-
-  .sidebar-menu {
-    
-    display: block;
-    background-color: #fff;
-    position: absolute;
-    top: 0;
-    right: -450px;
-    height: 100%;
-    width: 100%;
-    transition: .3s;
-    
-  }
-
-  .sidebar-menu ul {
-    padding-left: 0;
-  }
-
-  .sidebar-menu li {
-    list-style: none;
-    margin-bottom: 10px;
-    
-  }
-
-  .sidebar-menu li a {
-    text-decoration: none;
-    text-transform: uppercase;
-    color: rgba(0,0,0,.9);
-    margin-left: 0;
-    padding-left: 0;
-    font-size: 20px;
-   
-  }
-
-  .sidebar-menu li a:hover {
-    border-bottom-color: #1c4294;
-  }
-
-  .sidebar-menu .exit{
-    padding: 25px 0;
-  }
-
-  .sidebar-menu .exit i {
-    float: right;
-    
-  }
   
 }
 
@@ -349,6 +353,10 @@ body {
   text-transform: uppercase;
 }
 
+.about-admin .about-descri ul {
+  padding-left: 0;
+}
+
 .about-admin .about-descri li {
   list-style: none;
   
@@ -363,23 +371,13 @@ body {
 }
 
 .about-admin .about-descri li a::before {
-  /*content: '';
-  display: block;
-  bottom: 0;
-  height: 5px;
-  background-color: #BDE7FF;
-  position: relative;
-  width: 5px;
-  height: 20px;
-  left: -23px;
-  top: 20px*/
   content: "";
   width: 100px;
   height: 100px;
   position: relative;
-  left: -30px;
   border-left: 3px solid;
   border-color:  #BDE7FF;
+  padding-left: 10px;
   
 }
 
@@ -522,7 +520,6 @@ footer button {
   width: 100px;
   height: 100px;
   position: relative;
-  
   border-left: 3px solid;
   border-color:  #BDE7FF;
   padding-left: 10px;
