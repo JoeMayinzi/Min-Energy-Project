@@ -551,7 +551,12 @@ footer button {
 .project-descri , .project-ref {
   padding-top: 25px;
   padding-left: 10px;
+  
 
+}
+
+.project-ref {
+  padding-bottom: 10px;
 }
 
 /*===================== SOUS PAGE DANS PROJETS===================== */
