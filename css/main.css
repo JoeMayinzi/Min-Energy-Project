@@ -263,10 +263,13 @@ body {
 
   .sidebar-button {
     display: block;
+    position: absolute;
+    right: 0;
+   
   }
 
   .sidebar-menu {
-    position: absolute;
+    
     display: block;
     background-color: #fff;
     position: absolute;
