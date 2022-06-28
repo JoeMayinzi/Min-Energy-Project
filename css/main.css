@@ -327,6 +327,15 @@ body {
   text-transform: uppercase;
 }
 
+.about-admin .about-descri span a {
+  color: #028CDA;
+  text-decoration: none;
+}
+
+.about-admin .about-descri span a:hover {
+  text-decoration: underline;
+}
+
 .about-admin .about-descri h3 {
   text-transform: uppercase;
 }
