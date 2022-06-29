@@ -25,98 +25,93 @@
 </head>
 
 <body>
-  <header class="navbar navbar-expand-lg sticky-top">
-      <div class="container">
-        <a class="navbar-brand" href="#"><img src="/assets/img/logo.png" alt="logo du Ministère" srcset=""></a>
-        <nav class="collapse navbar-collapse"  id="navbarSupportedContent">
-          <ul class="navbar-nav nav-container ms-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="/index.html">Accueil</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/src/poliPublique/poliPublique.html">Politiques Publiques</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/src/ministère/ministère.html">Ministère</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/src/patrimoine/patrimoine.html">Patrimoine Nationale</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/src/projets/projets.html">Projets</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/src/contact/contact.html">contact</a>
-            </li>
-            <div class="search-box mt-2 ms-2">
-            </div>
-            </ul>
-                <!-- Button trigger modal -->
-                <div class="modal-search">
-                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                    <i class="fas fa-search"></i>
-                  </button>
-            
-                  <!-- Modal -->
-                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div class="modal-dialog modal-xl">
-                      <div class="modal-content">
-                        <div class="modal-header">
-                          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body">
-                          ...
-                        </div>
-                        <div class="modal-footer">
-                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                          <button type="button" class="btn btn-primary">Save changes</button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+  <header class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img src="/assets/img/logo.png" alt="logo du Ministère" srcset=""></a>
+      <nav class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="/index.html">Accueil</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/src/poliPublique/poliPublique.html">Politiques Publiques</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/src/ministère/ministère.html">Ministère</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/src/patrimoine/patrimoine.html">Patrimoine Nationale</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/src/projets/projets.html">Projets</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/src/contact/contact.html">contact</a>
+          </li>
+        </ul>
+        <div class="search-box ms-2">
+          <!-- Button trigger modal -->
+        <a type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          <i class="fas fa-search"></i>
+        </a>
 
-        </nav>
-        <div class="sidebar-button">
-          <a type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"> <i class="fas fa-bars"></i></a>
-          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
-            <div class="offcanvas-header">
-              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                ...
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+              </div>
             </div>
-            <div class="offcanvas-body">
-              <a href="#"><img src="/assets/img/logo.png" alt="logo du Ministère" srcset=""></a>
-              <nav>
-                <ul class="navbar-nav nav-container mt-3">
-                  <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="/index.html">Accueil</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="/src/poliPublique/poliPublique.html">Politiques Publiques</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="/src/ministère/ministère.html">Ministère</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="/src/patrimoine/patrimoine.html">Patrimoine Nationale</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="/src/projets/projets.html">Projets</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="/src/contact/contact.html">contact</a>
-                  </li>
-                </ul>
-                <div class="search-btn ms-3 mt-3">
-                  <i class="fas fa-search"></i>
-                </div>
-              </nav>
-            </div>
+          </div>
         </div>
+        </div>
+      </nav>
+      <div class="sidebar-button">
+        <a type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"> <i class="fas fa-bars"></i></a>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+          <div class="offcanvas-header">
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <a href="#"><img src="/assets/img/logo.png" alt="logo du Ministère" srcset=""></a>
+            <nav>
+              <ul class="navbar-nav nav-container mt-3">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="/index.html">Accueil</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/src/poliPublique/poliPublique.html">Politiques Publiques</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/src/ministère/ministère.html">Ministère</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/src/patrimoine/patrimoine.html">Patrimoine Nationale</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/src/projets/projets.html">Projets</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/src/contact/contact.html">contact</a>
+                </li>
+              </ul>
+              <div class="search-btn ms-3 mt-3">
+                <i class="fas fa-search"></i>
+              </div>
+            </nav>
+          </div>
       </div>
     </div>
   </header>
-
   <section class="home">
     <div class="container vh-100 d-flex align-items-center">
       <div class="row g-4">
@@ -125,6 +120,7 @@
             <h2 class="text-white m-0">Ministère des Ressources<br>
             Hydrauliques et Electricité</h2>
           </div>
+          
         </div>
         <div class="col-lg-6">
           <div class="minister-img">

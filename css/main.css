@@ -18,7 +18,6 @@ body {
 * {
   box-sizing: border-box;
 }
-
 .navbar{
   background: #fff;
   /*position: fixed;
@@ -70,7 +69,7 @@ body {
 
 @media (max-width: 992px) { 
   .navbar-toggler{
-    display: none;
+  
   }
 
   .sidebar-button {
