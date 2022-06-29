@@ -82,7 +82,7 @@ body {
    
   }
 
-  .sidebar-menu {
+  /*.sidebar-menu {
     
     display: block;
     background-color: #fff;
@@ -127,7 +127,7 @@ body {
     float: right;
     
   }
-
+  */
   
  }
 
@@ -135,6 +135,7 @@ body {
 
 .sidebar-button i, .exit i {
   font-size: 25px;
+  color: #000;
  }
 
 .home {
