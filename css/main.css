@@ -57,8 +57,35 @@ body {
 }
 
 .link:hover {
-  text-decoration: underline;
+  text-decoration: underline !important;
   color: #028CDA;
+}
+
+.modal-content {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.modal-body {
+  padding: 10px;
+}
+
+.modal-body form button {
+  position: absolute;
+  top: 11px;
+  left: 11px;
+  height: 46px;
+  background-color: transparent;
+  border: none;
+  padding: 10px;
+}
+
+.search-box .modal-body input {
+  width: 100%;
+  min-height: 48px;
+  /*border-radius: 3px;*/
+  padding-left: 45px;
+  border: 1px solid #d5e3ec;;
 }
 
 /*============================== SIDEBAR ============================*/
