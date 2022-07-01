@@ -1,13 +1,14 @@
 @import url("/css/main.css");
 
 body {
-    background-color: #f4f4f4 !important;
+    background-color: #ffffff !important;
     padding: 0;
     margin: 0;
 }
 
 .profil {
     background-color: #fff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 img {
@@ -28,7 +29,7 @@ img {
 }
 
 .profil-descri .text-letrine::first-letter {
-    font-size: 60px;
+    font-size: 96px;
     color: #1c4294;
 }
 

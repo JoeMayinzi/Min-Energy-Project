@@ -12,7 +12,6 @@ body {
   padding: 0;
   font-family: "Oswald", sans-serif;
   background-color: #f4f4f4;
-  
 }
 
 * {
@@ -20,10 +19,6 @@ body {
 }
 .navbar{
   background: #fff;
-  /*position: fixed;
-  right: 0;
-  left: 0;
-  top: 0;*/
 }
 .navbar .navbar-brand img {
   width: 100%;
@@ -36,13 +31,12 @@ body {
   margin-left: 15px;
   font-size: 14px;
   border-bottom: 1px solid rgba(10,36,88,.25);
-  /*font-family: "CooperHewitt-Book", Sans-serif;*/
 }
 
 .nav-link:hover {
   color: #1c4294;
   border-bottom-color: #1c4294;
-  border-bottom-width: 2px;
+  border-bottom-width: 1px;
 }
 
 .activeLink {
@@ -88,6 +82,10 @@ body {
   border: 1px solid #d5e3ec;;
 }
 
+/*============================== OFF CANVAS ============================*/
+.offcanvas-header {
+  justify-content: right;
+}
 /*============================== SIDEBAR ============================*/
 .sidebar-button {
   display: none;
@@ -110,14 +108,7 @@ body {
 
 /*==========================================================*/
 
-
-
-.sidebar-button i{
-  font-size: 25px;
-  color: #000;
- }
-
-.home {
+.hero {
   height: 100vh;
   /*display: flex;*/
   align-items: center;
@@ -129,20 +120,20 @@ body {
 
 } 
 
-.home .ministry {
+.hero_title {
   width: 100%;
 }
 
-.home .ministry h2{
+.hero_title h2{
   font-size: 3.5rem;
 }
 
-.home .minister-img img {
+.hero_image img {
   width: 100%;
   
 }
 
-.publications {
+.news-bar {
   position: absolute;
   bottom: -180px;
   background: #fff;
@@ -151,8 +142,14 @@ body {
   width: 85%;
 }
 
+.news-bar_post-title {
+  margin: 0;
+  font-size: 17px;
+  font-weight: normal;
+}
+
 @media (max-width: 576px) { 
-  .publications {
+  .news-bar {
     position: absolute;
     top: 100px;
     bottom: 0;
@@ -162,41 +159,41 @@ body {
     margin-top: -85px !important;
   }
   
-  .home .ministry h2 {
+  .hero_title h2 {
     font-size: 3rem;
   }
   
  }
 
  @media (max-width: 768px) { 
-  .publications {
+  .news-bar{
     position: static;
     bottom: 0;
   }
  } 
 
  @media (max-width: 787px) { 
-  .publications {
+  .news-bar {
     position: static;
     bottom: 0;
   }
  } 
 
  @media (max-width: 792px) { 
-  .publications {
+  .news-bar {
     position: static;
     bottom: 0;
   }
  } 
 
  @media (max-width: 972px) { 
-  .publications {
+  .news-bar {
     position: static;
     bottom: 0;
   }
  }
 
- .pub-date{
+ .news-bar_post-date{
   font-size : 10px;
   text-transform: uppercase;
   color: #666;
@@ -204,45 +201,42 @@ body {
   font-weight: 600;
 }
 
-.publications .descri-comment {
-  /*border-right: 1px solid rgba(151,151,151,.2);*/
-}
-
 @media (max-width: 576px) { 
-  .publications .descri-comment {
+  .news-bar_post-content {
     border:none;
   }
 
   
  }
 
-.publications p a {
+.news-bar_post-date p a {
   text-decoration: none;
   color: #028CDA;
   color: 12px;
 }
 
-.publications p a:hover {
+.news-bar_post-date p a:hover {
   text-decoration: underline;
 }
 
-.publications .description  .descri-img img {
+.news-bar__post-image img {
   border-radius: 3px;
   
 }
 
 
-.actualités {
-  padding: 120px 0;
+.other-news {
+  padding-top: 120px;
+  
 }
 
-.actu-title {
+.other-news_headlinee {
   
   font-weight: 700;
   
 }
 
-.actualités h2::after {
+.other-news h2::after {
   content: '';
   display: block;
   bottom: 0;
@@ -251,48 +245,52 @@ body {
   background-color: #028CDA;
   position: relative;
   top: 8px;
-  
 }
 
-.actualités h2 {
+.other-news h2 {
   text-transform: uppercase;
 }
 
-.actualités h3 a {
+.other-news h3 a {
   text-decoration: none;
   color: #028CDA;
 }
 
-.actualités h3 a:hover {
+.other-news h3 a:hover {
   text-decoration: underline;
 }
 
-.actualités .pub0 {
+.other-news .other-news_post-content{
   background-color: #fff;
-  padding: 37px 20px;
+  padding: 29px 20px;
 }
 
-.actualités .pub {
+.other-news .other-news_list-post {
   background-color: #fff;
   padding: 50px 20px;
 }
 
-.actualités p a{
+.other-news p a{
   text-decoration: none;
   color:#028CDA;
 }
 
-.actualités p a:hover {
+.other-news p a:hover {
   text-decoration: underline;
 }
 
-.actualités span {
-  font-size: 12px;
+.other-news span {
+  font-size: 14px;
 }
-.about-admin {
+
+.other-news_item h3 {
+  font-size: 17px;
+  font-weight: normal;
+}
+
+.about-admin_content {
   background-color: #fff;
   padding: 20px;
-
 }
 
 
@@ -303,7 +301,7 @@ body {
     
   } 
 
-  .actualités .pub {
+  .other-news_list-post{
     padding: 10px 20px;
   }
   
@@ -311,46 +309,45 @@ body {
 
 
 
-.about-admin img {
+.about-admin_content img {
   border-radius: 10px;
   
 }
 
-.about-admin .about-descri span {
+.about-admin_items span {
   text-transform: uppercase;
 }
 
-.about-admin .about-descri span a {
+.about-admin_items span a {
   color: #028CDA;
   text-decoration: none;
 }
 
-.about-admin .about-descri span a:hover {
+.about-admin_items span a:hover {
   text-decoration: underline;
 }
 
-.about-admin .about-descri h3 {
+.about-admin_items h3 {
   text-transform: uppercase;
 }
 
-.about-admin .about-descri ul {
+.about-admin_items ul {
   padding-left: 0;
 }
 
-.about-admin .about-descri li {
+.about-admin_items li {
   list-style: none;
   
 }
 
-.about-admin .about-descri li a{
+.about-admin_items li a{
   text-decoration: none;
   text-transform: uppercase;
   color: #000;
-  
-  
+  font-size: 14px;
 }
 
-.about-admin .about-descri li a::before {
+.about-admin_items li a::before {
   content: "";
   width: 100px;
   height: 100px;
@@ -361,29 +358,50 @@ body {
   
 }
 
-.about-admin .about-descri div {
+.about-admin_items div {
   padding: 20px 0;
 }
 
-.agences .card {
+.about-sg_content {
+  background-color: #fff;
+  padding: 20px;
+}
+
+.agency-partners_content  .card {
   padding: 20px;
   border: none;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 } 
 
+.agency-partners_content  h2 {
+  text-transform: uppercase;
+}
+
+.agency-partners_content  h2::after {
+  content: '';
+  display: block;
+  bottom: 0;
+  width: 70px;
+  height: 5px;
+  background-color: #028CDA;
+  position: relative;
+  top: 8px;
+}
 
 
-.agences .card h3 {
+.agency-partners_content  .card h3 {
   text-transform: uppercase;
   font-size: 2em;
 }
 
-.agences .card h5 {
+.agency-partners_content  .card h5 {
   text-transform: uppercase;
   font-size: 2em;
 }
 
-.agences .card a {
+.agency-partners_content  .card a {
   text-decoration: none;
+  font-size: 14px;
 }
 
 footer {
@@ -481,19 +499,35 @@ footer button {
 
 /*===================== PAGE MINISTERE ===================== */
 
-.min-member {
+.ministry_member {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 
 @media only screen and (min-width: 768px) {
-  .min-text{
+  .bloc-center{
       width: 710px;
       margin: 0 auto;
   }    
 }
+/*===================== PAGE PATRIMOINE ===================== */
+.card {
+  
+  border: 0;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
 
 /*===================== PAGE POLITIQUES PUBLIQUES===================== */
+.public-politics .card {
+  margin-bottom: 15px;
+  padding: 20px;
+  border: none;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.public-politics h3 {
+  font-size: 20px;
+}
 
 .download-pdf a::before {
   content: "";
@@ -505,34 +539,25 @@ footer button {
   padding-left: 10px;
 }
 
-.poliPublique .card {
-  margin-bottom: 15px;
-  padding: 20px;
-  border: none;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-}
-
-/*===================== SOUS PAGE DANS POLITIQUES PUBLIQUES===================== */
-
 /*===================== PAGE PROJETS===================== */
 
-.project {
+.project_content {
   background-color: #fff;
 }
 
-.project img {
+.project_img img {
   border-radius: 3px;
   height: auto;
 } 
 
-.project-descri , .project-ref {
+.projet_description, .project_infos {
   padding-top: 25px;
   padding-left: 10px;
   
 
 }
 
-.project-ref {
+.project_infos{
   padding-bottom: 10px;
 }
 
@@ -550,31 +575,29 @@ footer button {
 }
 
 @media only screen and (min-width: 768px) {
-  .projet1-text{
+  .first-project_text{
       width: 710px;
       margin: 0 auto;
   }    
 }
 
-.project1 {
+
+
+.first-project {
   background-color: #fff;
 }
 
-.project1 img {
+.first-project img {
  
   height: auto;
 }
 
-.project1 p {
+.first-project p {
   margin: 0;
 }
 
-.projet1-descri, .projet1-ref {
+.first-project_description, .first-project_infos {
   padding: 10px;
-}
-
-.poliPublique h3 {
-  font-size: 20px;
 }
 
 .min-member {
@@ -584,14 +607,6 @@ footer button {
 .page-title .title {
   text-transform: uppercase;
   
-}
-
-@media only screen and (max-width: 768px) {
-  .publications {
-    margin: 0 auto;
-    
-    padding: 30px 0px 30px 0px;
-  } 
 }
 
 /*=====================RESULTAT RECHERCHE===================== */
