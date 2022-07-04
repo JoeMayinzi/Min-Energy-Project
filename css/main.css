@@ -92,7 +92,7 @@ body {
 }
 
 
-/*@media (max-width: 992px) { 
+@media (max-width: 992px) { 
   .navbar-toggler{
   
   }
@@ -104,12 +104,12 @@ body {
   }
 
   
- }*/
+ }
 
 /*==========================================================*/
 
 .hero {
-  height: 100vh;
+  height: 100%;
   /*display: flex;*/
   align-items: center;
   justify-content: center;
@@ -134,7 +134,7 @@ body {
 }
 
 .news-bar {
-  position: absolute;
+  position: static;
   bottom: -180px;
   background: #fff;
   box-shadow: 0 5px 8px -3px rgba(0,0,0,.15);
@@ -204,6 +204,15 @@ body {
 
  }
 
+ @media (max-width: 810px) { 
+  .news-bar {
+    width: 88%;
+    left: 50px;
+   
+  }
+
+ }
+
  @media (max-width: 791px) { 
   .news-bar {
   width: 90%;
@@ -239,6 +248,9 @@ body {
  }
 
  @media (max-width: 576px) { 
+  .hero {
+    height: 100%;
+  }
   .news-bar {
     position: static;
     left: 0;
