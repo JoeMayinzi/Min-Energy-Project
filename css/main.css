@@ -83,9 +83,8 @@ body {
 }
 
 /*============================== OFF CANVAS ============================*/
-.offcanvas-header {
-  /*justify-content: right;*/
-}
+
+
 /*============================== SIDEBAR ============================*/
 .sidebar-button {
   display: none;
@@ -105,6 +104,7 @@ body {
 
   .sidebar-button .nav-link {
     font-size: 20px;
+    margin-bottom: 12px;
   }
 
   
