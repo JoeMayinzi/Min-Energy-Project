@@ -1,22 +1,46 @@
-/*@font-face {
-  font-family: "CooperHewitt-Book";
-  src: url("/assets/font/cooper-hewitt/CooperHewitt-Book.woff") format("woff");
- }
+@font-face {
+  font-family: "CooperHewitt";
+  src: url("/assets/font/CooperHewitt-Book.woff") format("woff");
+  font-weight: 400;
+}
 
- Police de font personnalisée
- */
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+@font-face {
+  font-family: "CooperHewitt";
+  src: url("/assets/font/CooperHewitt-Medium.woff") format("woff");
+  font-weight: 500;
+}
 
-body {
+@font-face {
+  font-family: "CooperHewitt";
+  src: url("/assets/font/CooperHewitt-Bold.woff") format("woff");
+  font-weight: 700;
+}
+
+
+/*@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');*/
+
+body, html {
   margin: 0;
   padding: 0;
-  font-family: "Oswald", sans-serif;
   background-color: #f4f4f4;
+  font-family: "CooperHewitt";
+  font-weight: 400;
+  
 }
 
 * {
   box-sizing: border-box;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+}
+
 .navbar{
   background: #fff;
 }
@@ -31,6 +55,7 @@ body {
   margin-left: 15px;
   font-size: 14px;
   border-bottom: 1px solid rgba(10,36,88,.25);
+  font-weight: 500;
 }
 
 .nav-link:hover {
@@ -609,6 +634,10 @@ footer button {
 
 .ministry_member {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.ministry_member span {
+  font-weight: 500;
 }
 
 
