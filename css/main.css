@@ -84,7 +84,7 @@ body {
 
 /*============================== OFF CANVAS ============================*/
 .offcanvas-header {
-  justify-content: right;
+  /*justify-content: right;*/
 }
 /*============================== SIDEBAR ============================*/
 .sidebar-button {
@@ -103,8 +103,13 @@ body {
    
   }
 
+  .sidebar-button .nav-link {
+    font-size: 20px;
+  }
+
   
  }
+
 
  .search-btn {
   position: relative;
