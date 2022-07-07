@@ -136,6 +136,10 @@ h6 {
     padding-left: 15px;
   }
 
+  .sidebar-button .offcanvas-header {
+    height: 86px;
+  }
+
   
  }
 
