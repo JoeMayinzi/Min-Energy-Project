@@ -169,6 +169,10 @@ h6 {
   border-top: none;
   border-left: none;
   border-bottom: 2px solid #1c4294;
+  
+ }
+
+ .search-btn form input::placeholder {
   font-style: italic;
  }
 
@@ -396,7 +400,11 @@ h6 {
 
 .other-news .other-news_list-post {
   background-color: #fff;
-  padding: 50px 20px;
+  padding: 20px 14px;
+}
+
+.other-news .other-news_headline.other-news_post-title {
+  font-weight: 500;
 }
 
 .other-news p a{
@@ -409,7 +417,7 @@ h6 {
 }
 
 .other-news span {
-  font-size: 14px;
+  font-size: 10px;
 }
 
 .other-news_item h3 {
@@ -429,7 +437,6 @@ h6 {
 @media only screen and (max-width: 768px) {
  .about-sg .row.secretary {
     flex-direction: column-reverse;
-    
   } 
 
   .other-news_list-post{
@@ -447,7 +454,8 @@ h6 {
 
 .about-admin_items span {
   text-transform: uppercase;
-  font-size: 14px;
+  font-size: 12px;
+  font-weight: 500;
 }
 
 .about-admin_items span a {
@@ -477,6 +485,7 @@ h6 {
   text-transform: uppercase;
   color: #000;
   font-size: 14px;
+  font-weight: 500;
 }
 
 .about-admin_items li a::before {
@@ -501,6 +510,10 @@ h6 {
 
 .about-sg h3, span {
   text-transform: uppercase;
+}
+
+.about-sg span a {
+  font-weight: 500;
 }
 
 .about-sg_img img {
@@ -725,7 +738,6 @@ footer button {
 }
 
 
-
 .first-project {
   background-color: #fff;
 }
@@ -747,12 +759,29 @@ footer button {
   background-color: #fff;
 }
 
-.page-title .title {
-  text-transform: uppercase;
+.page-title {
+  padding-top: 85px;
+  padding-bottom: 30px;
+}
+
+@media (max-width: 576px) { 
+  .page-title {
+    padding-top: 60px;
+    padding-bottom: 30px;
+  }
   
 }
 
+.page-title .title {
+  text-transform: uppercase;
+}
+
 /*=====================RESULTAT RECHERCHE===================== */
+.search-content_result p span {
+  color: #028CDA;
+  font-size: 14px;
+}
+
 .pagination {
   justify-content: center;
   
@@ -802,11 +831,18 @@ color: #028CDA;
 
 }
 .recent-articles h3 {
-  font-weight: normal;
+  font-weight: 500;
   font-size: 20px;
 }
-.social-links a {
+
+.articles-content .social-media ul {
+  padding-left: 5px;
+}
+
+.articles-content .social-media a {
   margin-right: 10px;
   font-size: 25px;
 }
+
+
 
