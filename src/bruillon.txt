@@ -1,76 +1,145 @@
+.news-bar {
+  position: absolute;
+  bottom: -180px;
+  background: #fff;
+  box-shadow: 0 5px 8px -3px rgba(0,0,0,.15);
+  padding: 30px 0px 30px 90px;
+  width: 85%;
+}
+
+.news-bar_post-title {
+  margin: 0;
+  font-size: 17px;
+  font-weight: normal;
+}
 
 
-  <header class="navbar navbar-expand-lg sticky-top">
-      <div class="container">
-        <a class="navbar-brand" href="#"><img src="/assets/img/logo.png" alt="logo du Ministère" srcset=""></a>
-        <nav class="collapse navbar-collapse"  id="navbarSupportedContent">
-          <ul class="navbar-nav nav-container ms-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="/index.html">Accueil</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/src/poliPublique/poliPublique.html">Politiques Publiques</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/src/ministère/ministère.html">Ministère</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/src/patrimoine/patrimoine.html">Patrimoine Nationale</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/src/projets/projets.html">Projets</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/src/contact/contact.html">contact</a>
-            </li>
-            <div class="search-box mt-2 ms-2">
-            </div>
-            </ul>
-                <!-- Button trigger modal -->
-                
-        </nav>
-        <div class="sidebar-button">
-          <a type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"> <i class="fas fa-bars"></i></a>
-          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
-            <div class="offcanvas-header">
-              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-            </div>
-            <div class="offcanvas-body">
-              <a href="#"><img src="/assets/img/logo.png" alt="logo du Ministère" srcset=""></a>
-              <nav>
-                <ul class="navbar-nav nav-container mt-3">
-                  <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="/index.html">Accueil</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="/src/poliPublique/poliPublique.html">Politiques Publiques</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="/src/ministère/ministère.html">Ministère</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="/src/patrimoine/patrimoine.html">Patrimoine Nationale</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="/src/projets/projets.html">Projets</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="/src/contact/contact.html">contact</a>
-                  </li>
-                </ul>
-                <div class="search-btn ms-3 mt-3">
-                  <i class="fas fa-search"></i>
-                </div>
-              </nav>
-            </div>
-        </div>
-      </div>
-    </div>
+
+ @media (max-width: 768px) { 
+  .news-bar{
+    position: static;
+    bottom: 0;
+  }
+ } 
+
+ @media (max-width: 787px) { 
+  .news-bar {
+    position: static;
+    bottom: 0;
+  }
+ } 
+
+ @media (max-width: 792px) { 
+  .news-bar {
+    position: static;
+    bottom: 0;
+  }
+ } 
+
+ @media (max-width: 1314px) { 
+  .news-bar {
+    padding: 30px 20px 30px 20px;
+  }
+ }
+
+@media (max-width: 1197px) { 
+  .news-bar {
+    padding: 30px 20px 30px 0px;
+  }
+ }
+
+ @media (max-width: 1130px) { 
+  .news-bar {
+    width: 100%;
+  }
+ }
+
+ @media (max-width: 991px) { 
+  .news-bar {
+    width: 70%;
+    left: 144px;
+    padding: 30px 0px 30px 0px;
     
-  </header>
+  }
 
+  .news-bar_entry-post {
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
 
- <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="none" viewBox="0 0 24 24"><path stroke="#028cda" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 6L15 12L9 18" class="colorStrokecurrentColor svgStroke"></path></svg>
+ }
+
+ @media (max-width: 810px) { 
+  .news-bar {
+    width: 88%;
+    left: 50px;
+   
+  }
+
+ }
+
+ @media (max-width: 791px) { 
+  .news-bar {
+  width: 90%;
+   margin: 0 auto;
+  }
+
+ } 
+
+ @media (max-width: 767px) { 
+  .news-bar {
+  width: 70%;
+   margin: 0 auto;
+  }
+
+ } 
+
+ 
+
+ .news-bar_post-date{
+  font-size : 10px;
+  text-transform: uppercase;
+  color: #666;
+  letter-spacing: 2.70px;
+  font-weight: 600;
+}
+
+@media (max-width: 576px) { 
+  .news-bar_post-content {
+    border:none;
+  }
+
+  
+ }
+
+ .news-bar_post-date p a {
+  text-decoration: none;
+  color: #028CDA;
+  color: 12px;
+}
+
+.news-bar_post-date p a:hover {
+  text-decoration: underline;
+}
+
+.news-bar__post-image img {
+  border-radius: 3px;
+  
+}
+
+========== news bar mobile =========
+.news-bar {
+    position: static;
+    left: 0;
+    top: 100px;
+    bottom: 0;
+    width: 95%;
+    padding: 30px 0px 30px 0px;
+    margin: 0 12px;
+    margin-top: -85px !important;
+   
+  }
+  
 
 
 

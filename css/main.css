@@ -16,8 +16,7 @@
   font-weight: 700;
 }
 
-
-/*@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');*/
+/*============== LES BASES ==============*/
 
 body, html {
   margin: 0;
@@ -40,6 +39,8 @@ h5,
 h6 {
   font-weight: 700;
 }
+
+/*============== HEADER ==============*/
 
 .navbar{
   background: #fff;
@@ -107,10 +108,7 @@ h6 {
   border: 1px solid #d5e3ec;;
 }
 
-/*============================== OFF CANVAS ============================*/
-
-
-/*============================== SIDEBAR ============================*/
+/*============== HEADER ==============*/
 .sidebar-button {
   display: none;
 }
@@ -135,12 +133,10 @@ h6 {
 
   .sidebar-button .offcanvas-header {
     height: 86px;
-    /*padding: 0;*/
   }
 
   
  }
-
 
  .search-btn {
   position: relative;
@@ -179,12 +175,12 @@ h6 {
  .search-btn form input:focus {
   border: none;
  }
-/*==========================================================*/
+
+/*============== HERO ==============*/
 
 .hero {
-  height: 100%;
-  /*display: flex;*/
-  align-items: center;
+  position: relative;
+  /*align-items: center;*/
   justify-content: center;
   background-image: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8)),
   url("/assets/img/inga.jpg");
@@ -206,9 +202,11 @@ h6 {
   
 }
 
+/*============== NEWS-BAR ==============*/
+
 .news-bar {
   position: absolute;
-  bottom: -180px;
+  bottom: -120px;
   background: #fff;
   box-shadow: 0 5px 8px -3px rgba(0,0,0,.15);
   padding: 30px 0px 30px 90px;
@@ -313,6 +311,7 @@ h6 {
 }
 
 @media (max-width: 576px) { 
+ 
   .news-bar_post-content {
     border:none;
   }
@@ -325,14 +324,14 @@ h6 {
     height: 100%;
   }
   .news-bar {
-    position: static;
+    position: relative;
     left: 0;
-    top: 100px;
+    top: 150px;
     bottom: 0;
     width: 95%;
     padding: 30px 0px 30px 0px;
     margin: 0 12px;
-    margin-top: -85px !important;
+    /*margin-top: -85px !important;*/
    
   }
   
@@ -357,9 +356,10 @@ h6 {
   
 }
 
+/*============== OTHER-NEWS ==============*/
 
 .other-news {
-  padding-top: 120px;
+  padding-top: 160px;
   
 }
 
@@ -395,7 +395,7 @@ h6 {
 
 .other-news .other-news_post-content{
   background-color: #fff;
-  padding: 29px 20px;
+  padding: 33px 20px;
 }
 
 .other-news .other-news_list-post {
@@ -425,7 +425,7 @@ h6 {
   font-weight: normal;
 }
 
-
+/*============== ABOUT ADMINISTRAION ==============*/
 
 .about-admin_content {
   background-color: #fff;
@@ -433,8 +433,7 @@ h6 {
 }
 
 
-
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 810px) {
  .about-sg .row.secretary {
     flex-direction: column-reverse;
   } 
@@ -444,8 +443,6 @@ h6 {
   }
   
 }
-
-
 
 .about-admin_content img {
   border-radius: 10px;
@@ -503,6 +500,8 @@ h6 {
   padding: 20px 0;
 }
 
+/*============== ABOUT SECRETARY ==============*/
+
 .about-sg_content {
   background-color: #fff;
   padding: 20px;
@@ -519,6 +518,9 @@ h6 {
 .about-sg_img img {
   border-radius: 10px;
 }
+
+/*============== AGENCIES PARTNERS ==============*/
+
 .agency-partners_content  .card {
   padding: 20px;
   border: none;
@@ -556,73 +558,12 @@ h6 {
   font-size: 14px;
 }
 
-footer {
-  background: #1c4294;
-  padding: 60px 0;
-}
 
-footer  .adress-min {
-  color: #fff;
-}
+/*============== SAME PAGES STRUCTUR STYLES ==============*/
 
-footer li {
-  list-style: none;
-}
-
-footer h5 {
-  text-transform: capitalize;
-  color: #fff;
-}
-
-.networks-icons a {
-  margin-left: 20px;
-  color: blue;
-  font-size: 25px;
+.page-title {
   background-color: #fff;
-  border-radius: 100%;
-  padding: 5px 15px;
-}
-
-/*footer  .quick-links {
-  border-left: 2px solid hsla(0,0%,100%,.3);
-  padding-left: 40px;
-}*/
-
-footer  .quick-links ul {
-  padding: 0;
-}
-
-footer  .quick-links li {
-  margin-bottom: 15px;
-}
-
-
-.quick-links a {
-  text-decoration: none;
-  color: #fff;
-
-  
-}
-
-footer .useful-links ul{
-  padding: 0;
-}
-
-footer .useful-links a {
-  text-decoration: none;
-  color: #fff;
-  
-}
-
-footer input {
-  padding: 10px 20px !important;
-  border-radius: 30px !important;
-}
-footer button {
-  padding: 10px 20px !important;
-  width: 100% !important;
-  border-radius: 30px !important;
-
+  padding: 25px 0;
 }
 
 .title {
@@ -630,12 +571,6 @@ footer button {
   text-align: center;
 }
 
-/*===================== SAME STRCUTURE PAGES STYLE ===================== */
-
-.page-title {
-  background-color: #fff;
-  padding: 25px 0;
-}
 
 @media (min-width: 992px) { 
   .title {
@@ -649,7 +584,7 @@ footer button {
   }
   }
 
-/*===================== PAGE MINISTERE ===================== */
+/*============== PAGE MINISTERE ==============*/
 
 .ministry_member {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -666,14 +601,16 @@ footer button {
       margin: 0 auto;
   }    
 }
-/*===================== PAGE PATRIMOINE ===================== */
+/*============== PAGE PATRIMOINE ==============*/
+
 .card {
   
   border: 0;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
-/*===================== PAGE POLITIQUES PUBLIQUES===================== */
+/*============== PAGE POLITIQUES PUBLIQUES ==============*/
+
 .public-politics .card {
   margin-bottom: 15px;
   padding: 20px;
@@ -695,7 +632,7 @@ footer button {
   padding-left: 10px;
 }
 
-/*===================== PAGE PROJETS===================== */
+/*============== PAGE PROJET==============*/
 
 .project_content {
   background-color: #fff;
@@ -717,7 +654,7 @@ footer button {
   padding-bottom: 10px;
 }
 
-/*===================== SOUS PAGE DANS PROJETS===================== */
+/*============== PAGES ON PROJETS ==============*/
 
 .controls-btn {
   background-color: #fff;
@@ -776,7 +713,8 @@ footer button {
   text-transform: uppercase;
 }
 
-/*=====================RESULTAT RECHERCHE===================== */
+/*============== RESULTAT DE RECHERCHE ==============*/
+
 .search-content_result p span {
   color: #028CDA;
   font-size: 14px;
@@ -799,7 +737,8 @@ footer button {
 }
 
 
-/*=====================NEWS===================== */
+/*============== NEWS==============*/
+
 .news {
   font-size: 14px;
 }
@@ -818,7 +757,8 @@ footer button {
   text-transform: lowercase;
 }
 
-/*===================== ARTICLES ===================== */
+/*============== ARTICLE ==============*/
+
 .articles-content span {
   font-size: 14px;
 letter-spacing: .04em;
@@ -842,6 +782,71 @@ color: #028CDA;
 .articles-content .social-media a {
   margin-right: 10px;
   font-size: 25px;
+}
+
+/*============== FOOTER ==============*/
+
+footer {
+  background: #1c4294;
+  padding: 60px 0;
+}
+
+footer  .adress-min {
+  color: #fff;
+}
+
+footer li {
+  list-style: none;
+}
+
+footer h5 {
+  text-transform: capitalize;
+  color: #fff;
+}
+
+.networks-icons a {
+  margin-left: 20px;
+  color: blue;
+  font-size: 25px;
+  background-color: #fff;
+  border-radius: 100%;
+  padding: 5px 15px;
+}
+
+footer  .quick-links ul {
+  padding: 0;
+}
+
+footer  .quick-links li {
+  margin-bottom: 15px;
+}
+
+
+.quick-links a {
+  text-decoration: none;
+  color: #fff;
+
+  
+}
+
+footer .useful-links ul{
+  padding: 0;
+}
+
+footer .useful-links a {
+  text-decoration: none;
+  color: #fff;
+  
+}
+
+footer input {
+  padding: 10px 20px !important;
+  border-radius: 30px !important;
+}
+footer button {
+  padding: 10px 20px !important;
+  width: 100% !important;
+  border-radius: 30px !important;
 }
 
 
