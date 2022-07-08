@@ -219,8 +219,7 @@ h6 {
 }
 
 
-
- @media (max-width: 768px) { 
+@media (max-width: 768px) { 
   .news-bar{
     position: static;
     bottom: 0;
@@ -633,24 +632,17 @@ h6 {
 
 /*============== PAGE PROJET==============*/
 
-.project_content {
-  background-color: #fff;
+.project .card-body {
+  padding: 0;
 }
 
-.project_img img {
-  border-radius: 3px;
-  height: auto;
-} 
-
-.projet_description, .project_infos {
-  padding-top: 25px;
-  padding-left: 10px;
-  
-
+.project .card {
+  padding: 20px;
 }
 
-.project_infos{
-  padding-bottom: 10px;
+.project .btn.btn-download {
+  background-color: #1c4294;
+  color: #fff;
 }
 
 /*============== PAGES ON PROJETS ==============*/

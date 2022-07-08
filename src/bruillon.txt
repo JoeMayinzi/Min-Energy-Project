@@ -142,5 +142,108 @@
   
 
 
+====================== Projet old code ========================
+<div class="container">
+        <div class="project_content mb-3">
+          <a href="/src/projets/projet1/projet1.html" class="text-black text-decoration-none">
+            <div class="row">
+              <div class="col-lg-4">
+                <div class="project_img">
+                  <img src="/assets/img/projets.png" class="w-100" alt="">
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="projet_description">
+                  <h3>Projet 1</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="project_infos">
+                  <div class="date mt-5 mb-3">
+                    <img src="/assets/img/Calendar.png" alt="">
+                    <span>2022-2025</span>
+                  </div>
+                  <div class="user mb-3">
+                    <img src="/assets/img/User.png" alt="">
+                    <span>MINRHE</span>
+                  </div>
+                  <div class="money">
+                    <img src="/assets/img/Money.png" alt="">
+                    <span>20.000 USD</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="project_content mb-3">
+          <a href="/src/projets/projet1/projet1.html" class="text-black text-decoration-none">
+            <div class="row">
+              <div class="col-lg-4">
+                <div class="project_img">
+                  <img src="/assets/img/projets.png" class="w-100" alt="">
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="projet_description">
+                  <h3>Projet 1</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="project_infos">
+                  <div class="date mt-5 mb-3">
+                    <img src="/assets/img/Calendar.png" alt="">
+                    <span>2022-2025</span>
+                  </div>
+                  <div class="user mb-3">
+                    <img src="/assets/img/User.png" alt="">
+                    <span>MINRHE</span>
+                  </div>
+                  <div class="money">
+                    <img src="/assets/img/Money.png" alt="">
+                    <span>20.000 USD</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="project_content mb-3">
+          <a href="/src/projets/projet1/projet1.html" class="text-black text-decoration-none">
+            <div class="row">
+              <div class="col-lg-4">
+                <div class="project_img">
+                  <img src="/assets/img/projets.png" class="w-100" alt="">
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="projet_description">
+                  <h3>Projet 1</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="project_infos">
+                  <div class="date mt-5 mb-3">
+                    <img src="/assets/img/Calendar.png" alt="">
+                    <span>2022-2025</span>
+                  </div>
+                  <div class="user mb-3">
+                    <img src="/assets/img/User.png" alt="">
+                    <span>MINRHE</span>
+                  </div>
+                  <div class="money">
+                    <img src="/assets/img/Money.png" alt="">
+                    <span>20.000 USD</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+
 
     
