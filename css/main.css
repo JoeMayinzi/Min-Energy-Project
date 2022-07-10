@@ -780,6 +780,11 @@ color: #028CDA;
 footer {
   background: #1c4294;
   padding: 60px 0;
+  
+}
+
+footer a, span {
+  font-size: 14px;
 }
 
 footer  .adress-min {
@@ -793,15 +798,22 @@ footer li {
 footer h5 {
   text-transform: capitalize;
   color: #fff;
+  font-size: 17px !important;
 }
 
 .networks-icons a {
-  margin-left: 20px;
+  /*margin-left: 20px;*/
   color: blue;
   font-size: 25px;
   background-color: #fff;
   border-radius: 100%;
   padding: 5px 15px;
+
+}
+
+.networks-icons span {
+  
+  text-transform: capitalize;
 }
 
 footer  .quick-links {
@@ -839,11 +851,26 @@ footer input {
   padding: 10px 20px !important;
   border-radius: 30px !important;
 }
-footer button {
+footer button{
   padding: 10px 20px !important;
   width: 100% !important;
   border-radius: 30px !important;
 }
+
+@media (max-width: 991px) { 
+  
+  footer .col-lg-3 {
+    
+  
+  }
+
+  footer  .quick-links {
+   
+    padding-left: 40px;
+  }
+  
+}
+
 
 @media (max-width: 767px) { 
   footer {
