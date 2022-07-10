@@ -777,6 +777,29 @@ color: #028CDA;
 
 /*============== FOOTER ==============*/
 
+.flag-bar {
+ position: relative;
+ top: 53px;
+}
+
+.flag-bar .flag-bar_blue {
+  background-color: #0095c9;
+  width: 33.333333%;
+  height: 10px;
+}
+
+.flag-bar .flag-bar_yellow {
+  background-color: #fff24b;
+  width: 33.333333%;
+  height: 10px;
+}
+
+.flag-bar .flag-bar_red {
+  background-color: #db3832;
+  width: 33.333333%;
+  height: 10px;
+}
+
 footer {
   background: #1c4294;
   padding: 60px 0;
