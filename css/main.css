@@ -315,7 +315,7 @@ h6 {
   }
 
   
- }
+}
 
  @media (max-width: 576px) { 
   .hero {
@@ -804,6 +804,11 @@ footer h5 {
   padding: 5px 15px;
 }
 
+footer  .quick-links {
+  border-left: rgba(255,255,255,.3) 2px solid;
+  padding-left: 40px;
+}
+
 footer  .quick-links ul {
   padding: 0;
 }
@@ -838,6 +843,17 @@ footer button {
   padding: 10px 20px !important;
   width: 100% !important;
   border-radius: 30px !important;
+}
+
+@media (max-width: 767px) { 
+  footer {
+    text-align: center;
+  }
+  footer  .quick-links {
+    border: none;
+    padding-left: 0;
+  }
+  
 }
 
 
