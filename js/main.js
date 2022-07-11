@@ -3,7 +3,9 @@ const navLinks = document.querySelectorAll("nav a");
 
 navLinks.forEach(link => {
     
-    if(link.href.includes(`${activePage}`)) {
-        link.classList.add("activeLink")
-    }
+    link.addEventListener("click", ()=>{
+        if(link.href.includes(`${activePage}`)) {
+            link.classList.add("activeLink")
+        }
+    })
 })
