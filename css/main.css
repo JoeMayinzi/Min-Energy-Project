@@ -40,6 +40,18 @@ h6 {
   font-weight: 700;
 }
 
+#btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1;
+  display: none;
+  border-radius: 100%;
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid #e5e5e5;
+}
+
 /*============== HEADER ==============*/
 
 .navbar{
