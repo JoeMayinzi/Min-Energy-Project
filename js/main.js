@@ -2,8 +2,9 @@ const activePage = window.location.pathname;
 const navLinks = document.querySelectorAll("nav a");
 const searchIcon = document.querySelector(".search-box a");
 const header = document.querySelector("header");
-const body = document.querySelector("body")
 const modalFade = document.querySelector(".modal-backdrop.show");
+
+
 
 //Get the button
 let mybutton = document.getElementById("btn-back-to-top");
@@ -40,5 +41,13 @@ function backToTop() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+
+navLinks.forEach(link =>{
+  if (link.href.includes(`${activePage}`)) {
+    link.classList.add("activeLink")
+  }
+})
+
+
 
 
