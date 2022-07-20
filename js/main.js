@@ -43,12 +43,14 @@ function backToTop() {
 }
 
 navLinks.forEach(link =>{
- if (link.href.includes(`${activePage}`)) {
-    link.classList.add("activeLink");
-    if (activePage == '/'){
-      link.classList.remove("activeLink")
-    }
-  } 
+  if (activePage == '/'){
+    link.classList.remove("activeLink");
+    if (link.href.includes(`${activePage}`)) {
+      link.classList.add("activeLink");
+     
+    } 
+  }
+ 
 
  
 })
