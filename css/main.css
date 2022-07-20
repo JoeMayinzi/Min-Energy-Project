@@ -53,10 +53,15 @@ h6 {
 }
 
 /*============== HEADER ==============*/
-
 .navbar{
   background: #fff;
+  
 }
+
+.navbar-shadaw {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
 .navbar .navbar-brand img {
   width: 100%;
   height: 60px;
@@ -110,8 +115,8 @@ h6 {
 
 .modal-body form button {
   position: absolute;
-  top: 11px;
-  left: 11px;
+  top: 6px;
+  right: 11px;
   height: 46px;
   background-color: transparent;
   border: none;

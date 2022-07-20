@@ -4,23 +4,14 @@ const searchIcon = document.querySelector(".search-box a");
 const header = document.querySelector("header");
 const modalFade = document.querySelector(".modal-backdrop.show");
 
-
-
 //Get the button
 let mybutton = document.getElementById("btn-back-to-top");
 
 
-navLinks.forEach(link => {
-    
-    link.addEventListener("click", ()=>{
-        if(link.href.includes(`${activePage}`)) {
-            link.classList.add("activeLink");
-        }
-    })
-})
-
 // When the user scrolls down 20px from the top of the document, show the button
 window.onscroll = function () {
+  // adding box-shadaw on header while user is scrolling
+  header.classList.add("navbar-shadaw")
   scrollFunction();
 };
 
@@ -30,6 +21,7 @@ function scrollFunction() {
     document.documentElement.scrollTop > 20
   ) {
     mybutton.style.display = "block";
+    
   } else {
     mybutton.style.display = "none";
   }
@@ -48,9 +40,7 @@ navLinks.forEach(link =>{
     if (activePage == '/'){
       link.classList.remove("activeLink")
     }
-  } 
-
- 
+  }
 })
 
 
