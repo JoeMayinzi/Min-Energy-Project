@@ -43,8 +43,12 @@ function backToTop() {
 }
 
 navLinks.forEach(link =>{
-  if (link.href.includes(`${activePage}`)) {
+  /*if (link.href.includes(`${activePage}`)) {
     link.classList.add("activeLink")
+  }*/
+
+  if (activePage == '/'){
+    console.log("Ok")
   }
 })
 
