@@ -814,8 +814,9 @@ color: #028CDA;
 /*============== FOOTER ==============*/
 
 .flag-bar {
- position: relative;
- top: 53px;
+  position: relative;
+  top: -65px;
+  
 }
 
 .flag-bar .flag-bar_blue {
@@ -837,6 +838,7 @@ color: #028CDA;
 }
 
 footer {
+  position: relative;
   background: #1c4294;
   padding: 60px 0;
   
