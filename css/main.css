@@ -296,6 +296,98 @@ h6 {
     
   }
 
+
+ @media (max-width: 965px) { 
+  .news-bar {
+    width: 73%;
+    left: 130px;
+    padding: 30px 0px 30px 0px;
+    
+  }
+ }
+
+ @media (max-width: 941px) { 
+  .news-bar {
+    width: 75%;
+    left: 120px;
+    padding: 30px 0px 30px 0px;
+    
+  }
+ }
+
+
+
+ @media (max-width: 924px) { 
+  .news-bar {
+    width: 76%;
+    left: 110px;
+    padding: 30px 0px 30px 0px;
+    
+  }
+ }
+
+ @media (max-width: 900px) { 
+  .news-bar {
+    width: 78%;
+    left: 100px;
+    padding: 30px 0px 30px 0px;
+    
+  }
+ }
+
+ @media (max-width: 880px) { 
+  .news-bar {
+    width: 80%;
+    left: 90px;
+    padding: 30px 0px 30px 0px;
+    
+  }
+ }
+
+ @media (max-width: 852px) { 
+  .news-bar {
+    width: 82%;
+    left: 78px;
+    padding: 30px 0px 30px 0px;
+    
+  }
+ }
+
+ @media (max-width: 840px) { 
+  .news-bar {
+    width: 83%;
+    left: 70px;
+    padding: 30px 0px 30px 0px;
+    
+  }
+ }
+
+ @media (max-width: 825px) { 
+  .news-bar {
+    width: 85%;
+    left: 65px;
+    padding: 30px 0px 30px 0px;
+    
+  }
+ }
+
+ @media (max-width: 815px) { 
+  .news-bar {
+    width: 86%;
+    left: 60px;
+    padding: 30px 0px 30px 0px;
+    
+  }
+ }
+
+ @media (max-width: 811px) { 
+  .news-bar {
+    width: 87%;
+    left: 54px;
+    padding: 30px 0px 30px 0px;
+    
+  }
+ }
   .news-bar_entry-post {
     justify-content: space-between;
     margin-bottom: 10px;
@@ -333,10 +425,56 @@ h6 {
    margin: 0 auto;
   }
 
- } 
+ }
 
- 
+ @media (max-width: 715px) { 
+  .news-bar {
+  width: 75%;
+   margin: 0 auto;
+  }
 
+ }
+
+ @media (max-width: 675px) { 
+  .news-bar {
+  width: 77%;
+   margin: 0 auto;
+  }
+
+ }
+
+ @media (max-width: 650px) { 
+  .news-bar {
+  width: 80%;
+   margin: 0 auto;
+  }
+
+ }
+
+
+ @media (max-width: 638px) { 
+  .news-bar {
+  width: 83%;
+   margin: 0 auto;
+  }
+
+ }
+
+ @media (max-width: 610px) { 
+  .news-bar {
+  width: 85%;
+   margin: 0 auto;
+  }
+
+ }
+
+ @media (max-width: 595px) { 
+  .news-bar {
+  width: 87%;
+   margin: 0 auto;
+  }
+
+ }
  .news-bar_post-date{
   font-size : 10px;
   text-transform: uppercase;
