@@ -1,5 +1,5 @@
 const activePage = window.location.pathname;
-const navLinks = document.querySelectorAll("nav a");
+const navLinks = document.querySelectorAll(".navbar a");
 const searchIcon = document.querySelector(".search-box a");
 const header = document.querySelector("header");
 
